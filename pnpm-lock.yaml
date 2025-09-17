@@ -101,8 +101,8 @@ importers:
         specifier: ~2.9.0
         version: 2.9.0
       abitype:
-        specifier: ^1.0.8
-        version: 1.0.8(typescript@5.9.2)(zod@4.1.5)
+        specifier: ^1.1.0
+        version: 1.1.0(typescript@5.9.2)(zod@4.1.5)
       core-js:
         specifier: ^3.45.1
         version: 3.45.1
@@ -2216,17 +2216,6 @@ packages:
   '@zip.js/zip.js@2.8.2':
     resolution: {integrity: sha512-PI6UdgpSeVoGvzguKHmy2bwOqI3UYkntLZOCpyJSKIi7234c5aJmQYkJB/P4P2YUJkqhbqvu7iM2/0eJZ178nA==}
     engines: {bun: '>=0.7.0', deno: '>=1.0.0', node: '>=16.5.0'}
-
-  abitype@1.0.8:
-    resolution: {integrity: sha512-ZeiI6h3GnW06uYDLx0etQtX/p8E24UaHHBj57RSjK7YBFe7iuVn07EDpOeP451D06sF27VOz9JJPlIKJmXgkEg==}
-    peerDependencies:
-      typescript: '>=5.0.4'
-      zod: ^3 >=3.22.0
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-      zod:
-        optional: true
 
   abitype@1.1.0:
     resolution: {integrity: sha512-6Vh4HcRxNMLA0puzPjM5GBgT4aAcFGKZzSgAXvuZ27shJP6NEpielTuqbBmZILR5/xd0PizkBGy5hReKz9jl5A==}
@@ -6431,11 +6420,6 @@ snapshots:
       '@wdio/logger': 9.18.0
 
   '@zip.js/zip.js@2.8.2': {}
-
-  abitype@1.0.8(typescript@5.9.2)(zod@4.1.5):
-    optionalDependencies:
-      typescript: 5.9.2
-      zod: 4.1.5
 
   abitype@1.1.0(typescript@5.9.2)(zod@4.1.5):
     optionalDependencies:
